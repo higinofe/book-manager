@@ -20,6 +20,7 @@ fi
 echo "🔧 Ajustando permissões..."
 sudo chown -R www-data:www-data storage bootstrap/cache
 sudo chmod -R 775 storage bootstrap/cache
+sudo chmod -R 777 var/www/book-manager 
 
 # Gera a chave do Laravel
 php artisan key:generate
