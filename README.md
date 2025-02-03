@@ -58,14 +58,6 @@ Acesse a pasta do projeto:
    DB_PASSWORD=sua_senha
    ```
 
-3. **Gerar a chave da aplicação**:
-   
-   ```bash
-   php artisan key:generate
-   ```
-
----
-
 ## 📦 3. Executando o Script de Configuração
 
 Antes de continuar, garanta que o script `setup.sh` tem permissão de execução:
